@@ -1,0 +1,3 @@
+/home/roosevelt/Documentos/Algoritmos/Practica/MyVector/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/roosevelt/Documentos/Algoritmos/Practica/MyVector/cmake-build-debug/CMakeFiles/MyVector.dir
+/home/roosevelt/Documentos/Algoritmos/Practica/MyVector/cmake-build-debug/CMakeFiles/edit_cache.dir

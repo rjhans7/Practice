@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/roosevelt/Documentos/Algoritmos/Practica/MyVector/Vector.h
+
+/home/roosevelt/Documentos/Algoritmos/Practica/MyVector/main.cpp
+iostream
+-
+vector
+-
+cassert
+-
+Vector.h
+/home/roosevelt/Documentos/Algoritmos/Practica/MyVector/Vector.h
+
