@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <script src="/static/js/libs/bootstrap.min.js" ></script>
+    <script src="/static/js/libs/jquery-3.3.1.js" ></script>
+
+</head>
+<body>
+  <div align="center">
+      <form action="do_login" method="post"> <!--action = "a donde pide" -->
+        <table>
+          <tr>
+            <td>
+              <input id="Username" type="text" class="form-control" placeholder="Username"
+              aria-lable="Username" aria-describedby="bassic-addon1" name="Username"
+              onkeyup="contadord()"> <p id="contador">0</p>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input id="Password" name="Password" type="text"
+              class="form-control" placeholder="Password"
+              aria-lable="Password" aria-describedby="bassic-addon1">
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input class="btn btn-primary" type="submit" value="Login" onclick="getData()">
+            </td>
+          </tr>
+        </table>
+      </form>
+      <script>
+        function getData() {
+          var a = $('#Username').val();
+          alert(a);
+        }
+        function contadord() {
+          var c = $('#Username').val().length;
+          $('#contador').text(c);
+        }
+      </script>
+  </div>
+</body>
+</html>

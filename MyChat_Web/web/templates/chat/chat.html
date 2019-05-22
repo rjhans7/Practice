@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>C H A T</title>
+    <link rel="stylesheet" href="/static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/static/css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inconsolata:400,700" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:600,500" type="text/css">
+    <script src="/static/js/libs/bootstrap.min.js" ></script>
+</head>
+<body style="background-color: #fee588; font-family: 'Inconsolata'">
+  <header>
+    <div class="barra caja" style="margin: 16px; padding: 0;
+    display: block;">
+      <nav class="menu">
+        <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+        <label class="menu-open-button" for="menu-open" style="border-radius: 0px; width: 60px; height: 57px; margin-left: -24px;">
+          <i class="large material-icons" style="font-size: 32px;">dehaze</i>
+        </label>
+        <a href="#" class="menu-item blue">
+          <i class="material-icons" style="font-size: 32px; top: -4px;margin-left: 2px;position: relative;">chat_bubble_outline</i>
+        </a>
+        <a href="#" class="menu-item green">
+          <i class="material-icons" style="font-size: 38px; top: -4px;position: relative;">grade</i>
+        </a>
+        <a href="#" class="menu-item red">
+          <i class="material-icons" style="font-size: 38px; top: -4px;position: relative;">perm_identity</i>
+        </a>
+        <a href="#" class="menu-item purple">
+          <i class="material-icons" style="font-size: 44px;">add</i>
+        </a>
+        <a href="#" class="menu-item orange">
+          <i class="material-icons" style="font-size: 34px; top: -5px;position: relative;"> settings </i>
+        </a>
+        <a href="/logout" class="menu-item lightblue">
+          <i class="material-icons" style="font-size: 34px; top: -5px;position: relative;">power_settings_new</i>
+        </a>
+      </nav>
+    </div>
+  </header>
+  <div>
+    <div class="chats">
+      <main class="chats chat_window caja">
+        <div class="chats caja name">
+          <h1>
+            Matty Healy
+          </h1>
+        </div>
+        <div class="texts chats" style="width: 80%;">
+          <div>
+            <p class="user_to">
+              Matty Healy
+            </p>
+            <p class="message"> <!-- falta esta clase -->
+              So I heard you found somebody else <br/>
+              And at first I thought it was a lie <br />
+              I took all my things that make sounds<br />
+              The rest I can do without
+            </p>
+          </div>
+          <div>
+            <p class="user">
+              YOU
+            </p>
+            <p class="message" style="text-align: right;">
+              I don't want your body <br />
+              But I hate to think about you with somebody else <br />
+              Our love has gone cold<br />
+              You're intertwining your soul with somebody else <br />
+            </p>
+          </div>
+          <div>
+            <p class="user_to">
+              Matty Healy
+            </p>
+            <p class="message"> <!-- falta esta clase -->
+              I'm looking through you while you're looking through your phone <br />
+              And then leaving with somebody else <br />
+              No, I don't want your body <br />
+              But I'm picturing your body with somebody else
+            </p>
+        </div>
+      </div>
+        <div class="chats caja send">
+          <h1 style="text-align:  center; padding-right:  0px;"> <b>SEND</b></h1>
+        </div>
+        <div class="message_to_send">
+          <!--<input type="text" name="mensaje" style="height: inherit;">-->
+          <textarea name="mensaje" cols="40" rows="5" style="height: 100%;border-top-width: 2px;width: 100%;"></textarea>
+        </div>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

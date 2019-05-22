@@ -1,0 +1,79 @@
+.barra {
+  background-color: #fde48e;
+  color: #000000;
+  border-color: #000000;
+  line-height: 56px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 75px;
+  padding: 0;
+  display: block;
+  line-height: 115px;
+  font-size: 35px;
+}
+
+.caja {
+  border-width: 4px;
+  border-style: solid;
+  box-shadow: 6px 6px 0
+              rgba(0,0,0,.9),
+              inset 3px 3px 0
+              #fff;
+}
+
+.boton {
+  background-color: #fde48e;
+  color: #000000;
+  border-color: #000000;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 5px;
+  margin-left: 193%;
+  margin-top: 10px;;
+  display: block;
+  line-height: 25px;
+}
+
+.caja_btn {
+  border-width: 2px;
+  border-style: solid;
+  background-color: #ec4468;
+}
+
+.box {
+  background-color: #ffffff;
+  color: #000000;
+  border-color: #000000;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 20px;
+  line-height: 56px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form_campos {
+  padding-left: 5px;
+  height: 35px;
+  border-width: 1px;
+  border-style: solid;
+}
+
+input {
+  margin-left: -9px;
+}
+
+.sign_up {
+    margin-left: 161%;
+}
+
+@media (max 740px) {
+  .box {
+    
+  }
+}
