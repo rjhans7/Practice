@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700,300' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'><link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.2/css/font-awesome.min.css'>
+    <link rel="stylesheet" href="../static/css/success.css">
+    <script src="/static/js/libs/jquery-3.3.1.js" ></script>
+    <script src="/static/js/success.js"></script>
+    <script src="/static/js/libs/bootstrap.min.js" ></script>
+
+</head>
+<body>
+
+<div id="frame">
+	<div id="sidepanel">
+		<div id="profile">
+			<div class="wrap">
+				<img id="profile-img" src="http://www.redcapitalmx.com/wp-content/uploads/2018/02/chumel-torres-facebook.jpg" class="online" alt="" />
+                <p id="current_username" onclick="sayHello('Chumel')"></p>
+                <div id="status-options">
+					<ul>
+						<li id="status-online" class="active"><span class="status-circle"></span> <p>Online</p></li>
+						<li id="status-away"><span class="status-circle"></span> <p>Away</p></li>
+						<li id="status-busy"><span class="status-circle"></span> <p>Busy</p></li>
+						<li id="status-offline"><span class="status-circle"></span> <p>Offline</p></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="search">
+			<label for=""><i class="fa fa-search" aria-hidden="true"></i></label>
+			<input type="text" placeholder="Search contacts..." />
+		</div>
+		<div id="contacts">
+			<ul id="user">
+				<li class="contact active">
+					<div class="wrap">
+						<span class="contact-status busy"></span>
+						<img src="https://yt3.ggpht.com/-7GTCq2PbO3o/AAAAAAAAAAI/AAAAAAAAAAA/eo7lM2pihH4/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="" />
+						<div class="meta">
+							<p class="name">Peña Nieto</p>
+							<p class="preview">Hola Chumel!</p>
+						</div>
+					</div>
+				</li>
+				<li class="contact">
+					<div class="wrap">
+						<span class="contact-status away"></span>
+						<img src="https://chismesdefamosos.top/wp-content/uploads/2017/09/trump-cuadrada.jpeg" alt="" />
+						<div class="meta">
+							<p class="name">Donald Trump</p>
+							<p class="preview">American First!</p>
+						</div>
+					</div>
+				</li>
+
+			</ul>
+		</div>
+		<div id="bottom-bar">
+			<a href="/"><button id="home"><i class="fa fa-home" aria-hidden="true"></i> <span>Home</span></button></a>
+			<a href="/logout"><button  id="logout"><i class="fa fa-sign-out" aria-hidden="true"></i><span>Logout</span></button></a>
+
+
+    </div>
+	</div>
+	<div class="content">
+		<div class="contact-profile" >
+			<img src="https://yt3.ggpht.com/-7GTCq2PbO3o/AAAAAAAAAAI/AAAAAAAAAAA/eo7lM2pihH4/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="" />
+			<p id="user-to">Peña Nieto</p>
+		</div>
+		<div class="messages" >
+			<ul id="boxMessageInput">
+				<li class="sent">
+					<img src="http://www.redcapitalmx.com/wp-content/uploads/2018/02/chumel-torres-facebook.jpg" alt="" />
+					<p>Hey! No te pierdas este jueves el nuevo Pulso de la República</p>
+				</li>
+				<li class="replies">
+					<img src="https://yt3.ggpht.com/-7GTCq2PbO3o/AAAAAAAAAAI/AAAAAAAAAAA/eo7lM2pihH4/s900-c-k-no-mo-rj-c0xffffff/photo.jpg" alt="" />
+					<p>No te preocupes, no lo olvidaré</p>
+				</li>
+			</ul>
+		</div>
+		<div class="message-input">
+			<div class="wrap">
+			<input type="text" id="txtMessage" placeholder="Write your message..." />
+			<i class="fa fa-paperclip attachment" aria-hidden="true"></i>
+			<button class="submit" id="btnMessage" values="Send" onclick="send_message()"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+			</div>
+		</div>
+	</div>
+</div>
+
+</body></html>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat | Register</title>
+    <link rel="stylesheet" href="../static/css/login.css">
+    <script src="/static/js/libs/bootstrap.min.js" ></script>
+</head>
+<body>
+    <div class="login-box">
+      <h1>Bienvenido!</h1>
+
+      <form action="/do_register" method="post">
+        <label >Name</label>
+        <input type="text" name ="name" placeholder="Enter your name">
+          <label >Fullname</label>
+        <input type="text" name ="fullname" placeholder="Enter your fullname">
+          <label >Username</label>
+        <input type="text" name ="username" placeholder="Enter your username">
+          <label >Password</label>
+        <input type="password" name = "password"placeholder="Enter Password">
+        <input type="submit" value="Register"> <br>
+          <a href="/">Home</a>
+
+      </form>
+    </div>
+</body>
+</html>
